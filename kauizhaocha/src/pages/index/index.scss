@@ -1,0 +1,31 @@
+@import "~taro-ui/dist/style/components/icon.scss";
+.index {
+  height: 80vh;
+  .swiper {
+    width: 640px;
+    height: 280px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    .swiper-item {
+      border-radius:20px;
+      .img-area {
+        border-radius: 20px;
+      }
+      .img {
+        width: 100%;
+      }
+    }
+  }
+  .tabs {
+    padding-top: 10px;
+    .at-tabs__item--active {
+      font-size: 35px;
+      font-weight: bold;
+      // color:#3D52A1
+      .at-tabs__item-underline {
+        height: 2px;
+      }
+    }
+  }
+}
